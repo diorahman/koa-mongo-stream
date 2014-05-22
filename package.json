@@ -1,0 +1,17 @@
+{
+  "name": "notification-stream",
+  "version": "0.0.1",
+  "description": "notification stream using koa, mongoose capped collection and sse-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sse-stream": "git://github.com/kodekreatif/sse-stream",
+    "koa-router": "~3.1.4",
+    "koa": "~0.6.1",
+    "mongoose": "~3.8.10"
+  }
+}

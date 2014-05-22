@@ -1,0 +1,6 @@
+<script>
+  var source = new EventSource("/subscribe");
+  source.addEventListener("message", function(msg){
+    console.log (msg);
+  });
+</script>
